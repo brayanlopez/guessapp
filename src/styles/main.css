@@ -1,0 +1,29 @@
+@import url(container.css);
+
+/* Custom properties/variables  */
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #be3144;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+
+  /* primary */
+  --primary-color: black;
+  /* secondary */
+  --secondary-color: black;
+  --danger: #be0000;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  color: var(--primary-color);
+  font-weight: lighter;
+}
